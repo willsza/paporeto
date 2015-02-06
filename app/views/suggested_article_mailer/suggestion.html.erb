@@ -1,0 +1,5 @@
+<link rel="stylesheet" type="text/css" href="mailers.css">
+<div>
+	<p>Olá Editor, o leitor <b><%= @suggested_article.name %></b> enviou a seguinte sugestão de artigo:</p>
+	<p><%= simple_format(@suggested_article.body) %></p>
+</div>

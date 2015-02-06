@@ -1,0 +1,9 @@
+<link rel="stylesheet" type="text/css" href="mailers.css">
+<div>
+	<p>
+		<%= @suggested_article.name %>, <br>
+		obrigado por sua sugestão!
+	</p>
+	<p>Para confirmar segue a sugestão enviada:</p>
+	<p><%= simple_format(@suggested_article.body) %></p>
+</div>

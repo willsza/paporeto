@@ -1,0 +1,22 @@
+h1 = @article.title
+
+strong = @article.category.name
+
+p = l @article.published_at
+
+hr
+
+p = @article.summary
+
+hr
+
+p.text-right = size_of @article.body
+
+p = img @article.image.regular if @article.image?
+= simple_format @article.body
+
+hr
+
+.btn-group.pull-right
+	= link_to 'Editar', edit_admin_article_path(@article), class: 'btn btn-default btn-sm'
+	= link_to 'Voltar', admin_articles_path, class: 'btn btn-default btn-sm'

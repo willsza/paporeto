@@ -1,0 +1,5 @@
+- if featured_article.present?
+	article.featured
+		= link_to '#' do
+		  	= image_tag 'temp/regular.jpg', width: 260, height: 196
+		  	h2 = featured_article.title
