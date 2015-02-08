@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.3.10'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -49,8 +47,15 @@ group :development do
 	gem 'pry-rails', 	'~> 0.3.2'
 	# Verificar envios de email no browser em ambiente de desenvolvimento
 	gem 'letter_opener', '~> 1.3.0'
+	# Use sqlite3 as the database for Active Record
+	gem 'sqlite3', '~> 1.3.10'
 
 	# Validar Bugs
 	# gem 'better_errors', '~> 2.1.1'
 	# gem 'binding_of_caller', '~> 0.7.2'
+end
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
 end
