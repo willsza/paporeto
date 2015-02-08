@@ -1,0 +1,1168 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 10, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 44, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 56, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 66, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 77, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 88, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 97, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 108, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 117, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 125, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 134, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 143, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 152, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 161, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 168, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* line 172, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 183, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 191, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 202, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 210, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 220, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 231, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 255, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 265, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 292, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 302, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 321, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 346, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 356, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 370, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 378, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 389, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 398, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 407, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 418, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 424, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+td,
+th {
+  padding: 0;
+}
+
+/* line 2, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+body {
+  background-color: #f6f6f6;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 5, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+a {
+  color: #7e60d0;
+}
+
+/* line 10, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+img, embed, object, video {
+  max-width: 100%;
+  width: auto\9 ;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 27, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+body.noticias #page-header:before {
+  background: #f44f74;
+}
+/* line 30, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+body.noticias #page-header #page-nav li.noticias a {
+  color: #f44f74;
+}
+
+/* line 34, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.noticias article.entry h1 {
+  color: #f44f74;
+}
+/* line 37, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.noticias.category h1, .noticias .category {
+  background-color: #f44f74;
+}
+/* line 40, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.noticias a {
+  color: #f44f74;
+}
+
+/* line 46, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+nav#page-nav li.noticias a:hover {
+  color: #f44f74;
+}
+
+/* line 27, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+body.esportes #page-header:before {
+  background: #5cbb00;
+}
+/* line 30, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+body.esportes #page-header #page-nav li.esportes a {
+  color: #5cbb00;
+}
+
+/* line 34, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.esportes article.entry h1 {
+  color: #5cbb00;
+}
+/* line 37, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.esportes.category h1, .esportes .category {
+  background-color: #5cbb00;
+}
+/* line 40, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.esportes a {
+  color: #5cbb00;
+}
+
+/* line 46, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+nav#page-nav li.esportes a:hover {
+  color: #5cbb00;
+}
+
+/* line 27, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+body.entretenimento #page-header:before {
+  background: #00afc4;
+}
+/* line 30, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+body.entretenimento #page-header #page-nav li.entretenimento a {
+  color: #00afc4;
+}
+
+/* line 34, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.entretenimento article.entry h1 {
+  color: #00afc4;
+}
+/* line 37, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.entretenimento.category h1, .entretenimento .category {
+  background-color: #00afc4;
+}
+/* line 40, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.entretenimento a {
+  color: #00afc4;
+}
+
+/* line 46, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+nav#page-nav li.entretenimento a:hover {
+  color: #00afc4;
+}
+
+/* line 51, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.container, .send-news .send-news-inner, section.latest-articles .latest-articles-inner, #page-header-inner, footer#page-footer #page-footer-inner, #featured-article a, #featured-article .article-inner, body.home #more-articles, body.type-section #featured-article, section.suggest-news {
+  *zoom: 1;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 18, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+.container:before, .send-news .send-news-inner:before, section.latest-articles .latest-articles-inner:before, #page-header-inner:before, footer#page-footer #page-footer-inner:before, #featured-article a:before, #featured-article .article-inner:before, body.home #more-articles:before, body.type-section #featured-article:before, section.suggest-news:before, .container:after, .send-news .send-news-inner:after, section.latest-articles .latest-articles-inner:after, #page-header-inner:after, footer#page-footer #page-footer-inner:after, #featured-article a:after, #featured-article .article-inner:after, body.home #more-articles:after, body.type-section #featured-article:after, section.suggest-news:after {
+  content: " ";
+  display: table;
+}
+/* line 23, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+.container:after, .send-news .send-news-inner:after, section.latest-articles .latest-articles-inner:after, #page-header-inner:after, footer#page-footer #page-footer-inner:after, #featured-article a:after, #featured-article .article-inner:after, body.home #more-articles:after, body.type-section #featured-article:after, section.suggest-news:after {
+  clear: both;
+}
+
+/* line 58, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+#featured-article article .category, #more-articles h1 {
+  font-size: 0.9375em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  color: white;
+  margin: 0;
+  padding: 0.25em 0.5em;
+  text-shadow: none;
+}
+
+/* line 69, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.send-news .send-news-inner {
+  margin-top: 30px;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #333333;
+}
+/* line 78, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.send-news .send-news-inner a {
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  padding-left: 10px;
+  color: #666666;
+}
+/* line 84, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.send-news .send-news-inner a:hover {
+  color: black;
+}
+
+/* line 92, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+section.latest-articles .latest-articles-inner article {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-bottom: 20px;
+}
+/* line 41, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_span-columns.scss */
+section.latest-articles .latest-articles-inner article:last-child {
+  margin-right: 0;
+}
+/* line 95, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+section.latest-articles .latest-articles-inner article:nth-child(2n+1) {
+  margin-right: 0;
+}
+/* line 99, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+section.latest-articles a {
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  padding: 15px;
+  *zoom: 1;
+}
+/* line 18, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+section.latest-articles a:before, section.latest-articles a:after {
+  content: " ";
+  display: table;
+}
+/* line 23, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+section.latest-articles a:after {
+  clear: both;
+}
+/* line 106, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+section.latest-articles a:hover {
+  background-color: #fefef0;
+}
+/* line 109, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+section.latest-articles h1 {
+  text-transform: uppercase;
+  font-size: 0.9375em;
+  font-weight: 500;
+}
+/* line 114, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+section.latest-articles h2 {
+  font-size: 1.125em;
+  line-height: 1.125em;
+  margin: 0;
+  padding: 0 0 5px 0;
+  font-weight: 500;
+}
+/* line 121, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+section.latest-articles p {
+  font-size: 0.875em;
+  color: #999999;
+  margin: 0;
+  padding: 0;
+}
+/* line 127, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+section.latest-articles img {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 131, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+fieldset {
+  border: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+/* line 135, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+input, textarea {
+  width: 100%;
+  border: 2px solid #b2b2b2;
+  border-radius: 2px;
+  background-color: white;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 8px;
+}
+/* line 143, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+input:focus, textarea:focus {
+  outline: none;
+}
+
+/* line 145, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+.form-group {
+  padding-bottom: 10px;
+}
+
+/* line 148, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+button {
+  background-color: #333333;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 40px !important;
+}
+
+/* line 158, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_common.sass */
+button {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* line 1, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+#page-header {
+  position: relative;
+  min-height: 105px;
+  z-index: 1000;
+  background-color: #f6f6f6;
+  background-color: rgba(246, 246, 246, 0.95);
+}
+/* line 8, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+#page-header:before {
+  content: "";
+  background-image: linear-gradient(to right, #f44f74 15%, #5cbb00 15%, #5cbb00 30%, #00afc4 30%, #00afc4 45%, #f44f74 45%, #f44f74 60%, #5cbb00 60%, #5cbb00 75%, #00afc4 75%, #00afc4 90%, #f44f74 90%, #f44f74 100%);
+  background-image: linear-gradient(to right, #f44f74 15%, #5cbb00 15%, #5cbb00 30%, #00afc4 30%, #00afc4 45%, #f44f74 45%, #f44f74 60%, #5cbb00 60%, #5cbb00 75%, #00afc4 75%, #00afc4 90%, #f44f74 90%, #f44f74 100%);
+  height: 3px;
+  width: 100%;
+  display: block;
+}
+
+/* line 19, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+#page-header-inner #logo {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+}
+/* line 41, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_span-columns.scss */
+#page-header-inner #logo:last-child {
+  margin-right: 0;
+}
+/* line 21, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+#page-header-inner #logo a {
+  background-image: url("logo.png");
+  display: block;
+  width: 148px;
+  height: 23px;
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+  margin: 41px 0 0 0;
+  opacity: 0.3;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+  /* line 21, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+  #page-header-inner #logo a {
+    background-image: url("logo@2x.png");
+    background-size: 148px 23px;
+  }
+}
+/* line 29, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+#page-header-inner #logo a:hover {
+  opacity: 0.7;
+}
+
+/* line 33, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+nav#page-nav {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+}
+/* line 41, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_span-columns.scss */
+nav#page-nav:last-child {
+  margin-right: 0;
+}
+/* line 36, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+nav#page-nav ul {
+  list-style-type: none;
+  margin: 16px 0 0 0;
+  padding: 0;
+  text-align: right;
+}
+/* line 42, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+nav#page-nav li {
+  display: inline;
+}
+/* line 45, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+nav#page-nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #666666;
+  padding: 30px;
+  text-transform: uppercase;
+  font-size: 0.875em;
+}
+/* line 53, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_header.sass */
+nav#page-nav a:last-of-type {
+  padding-right: 0;
+}
+
+/* line 1, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer {
+  margin: 30px 0 90px 0;
+}
+/* line 3, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner {
+  border-top: 1px solid #eeeeee;
+  padding-top: 30px;
+  *zoom: 1;
+  color: #888888;
+}
+/* line 18, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+footer#page-footer #page-footer-inner:before, footer#page-footer #page-footer-inner:after {
+  content: " ";
+  display: table;
+}
+/* line 23, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+footer#page-footer #page-footer-inner:after {
+  clear: both;
+}
+/* line 10, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner a {
+  color: #888888;
+}
+/* line 12, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner a:hover {
+  color: black;
+}
+/* line 15, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner .credits {
+  font-weight: 300;
+  font-size: 0.8125em;
+}
+/* line 19, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner .logo {
+  float: left;
+  margin-right: 20px;
+}
+/* line 22, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner .logo a {
+  display: block;
+  width: 83px;
+  height: 28px;
+  background-image: url("logo-startae.png");
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+  opacity: 0.2;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+  /* line 22, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+  footer#page-footer #page-footer-inner .logo a {
+    background-image: url("logo-startae@2x.png");
+    background-size: 83px 28px;
+  }
+}
+/* line 28, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner .logo a:hover {
+  opacity: 0.7;
+}
+/* line 30, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner .copy {
+  float: left;
+}
+/* line 32, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_footer.sass */
+footer#page-footer #page-footer-inner .copy p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+body.home #featured-article {
+  margin-top: -102px;
+}
+
+/* line 5, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#featured-article {
+  position: relative;
+}
+/* line 8, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#featured-article a {
+  display: block;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  padding-right: 10em;
+}
+/* line 18, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#featured-article a:hover {
+  text-decoration: underline;
+}
+/* line 21, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#featured-article h1 {
+  font-size: 2.5625em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.3125em 0 1.25em 0;
+}
+/* line 27, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#featured-article article {
+  background-color: #f7f7f7;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 493px;
+  position: relative;
+}
+/* line 35, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#featured-article article:before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+/* line 44, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#featured-article article img {
+  width: 0;
+  height: 0;
+}
+/* line 52, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#featured-article .article-inner {
+  padding-top: 102px;
+  display: block;
+}
+
+/* line 59, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+body.home #more-articles {
+  padding-top: 30px;
+}
+/* line 63, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+body.home #more-articles section.category {
+  background-color: white;
+  padding: 20px;
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+/* line 41, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_span-columns.scss */
+body.home #more-articles section.category:last-child {
+  margin-right: 0;
+}
+/* line 70, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_omega.scss */
+body.home #more-articles section.category:nth-child(3n) {
+  margin-right: 0;
+}
+/* line 75, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_omega.scss */
+body.home #more-articles section.category:nth-child(3n+1) {
+  clear: left;
+}
+
+/* line 72, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#more-articles h1 {
+  margin: 0;
+}
+/* line 76, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#more-articles h2 {
+  font-size: 1em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+/* line 83, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#more-articles article.featured img {
+  margin: 0 0 0.625em 0;
+}
+/* line 86, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#more-articles article {
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 89, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#more-articles article a {
+  text-decoration: none;
+  display: block;
+  *zoom: 1;
+  padding: 0.9375em 0;
+}
+/* line 18, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+#more-articles article a:before, #more-articles article a:after {
+  content: " ";
+  display: table;
+}
+/* line 23, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+#more-articles article a:after {
+  clear: both;
+}
+/* line 94, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#more-articles article a:hover {
+  text-decoration: underline;
+}
+/* line 97, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#more-articles article:last-of-type {
+  border-bottom: none;
+}
+/* line 100, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_home.sass */
+#more-articles article img {
+  float: left;
+  margin-right: 0.625em;
+}
+
+/* line 4, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-section.sass */
+body.type-section #featured-article article {
+  height: 388px;
+}
+/* line 6, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-section.sass */
+body.type-section #featured-article h1 {
+  padding: 0;
+}
+/* line 8, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-section.sass */
+body.type-section #featured-article a {
+  padding: 14em 2em 2em 2em;
+}
+
+/* line 1, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+#main {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+}
+/* line 41, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_span-columns.scss */
+#main:last-child {
+  margin-right: 0;
+}
+
+/* line 4, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+article.entry {
+  background-color: white;
+  padding: 60px;
+}
+/* line 8, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+article.entry .entry-metadata time {
+  font-weight: bold;
+  font-size: 0.6875em;
+  color: #999999;
+}
+/* line 13, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+article.entry header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1.25em;
+  margin-bottom: 1.25em;
+}
+/* line 18, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+article.entry header h1, article.entry header h2 {
+  margin: 0;
+  padding: 0;
+}
+/* line 21, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+article.entry header h1 {
+  font-size: 2em;
+  line-height: 1em;
+  margin-top: 0.625em;
+}
+/* line 25, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+article.entry header h2 {
+  font-weight: 300;
+  font-size: 1.0625em;
+  line-height: 1.125em;
+  margin-top: 0.625em;
+  color: #888888;
+}
+/* line 32, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+article.entry .entry-content {
+  font-size: 0.9375em;
+  line-height: 1.375em;
+  color: #666666;
+}
+/* line 36, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+article.entry .entry-content p {
+  font-weight: 300;
+}
+
+/* line 41, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+#sidebar {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+}
+/* line 41, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_span-columns.scss */
+#sidebar:last-child {
+  margin-right: 0;
+}
+/* line 44, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+#sidebar section.category {
+  width: 100%;
+  background-color: transparent;
+}
+/* line 47, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_news-details.sass */
+#sidebar h1 {
+  color: black;
+  padding: 0;
+}
+
+/* line 2, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_page-clean.sass */
+body.type-clean #page-nav {
+  display: none;
+}
+/* line 4, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_page-clean.sass */
+body.type-clean #page-header-inner #logo {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+/* line 8, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_page-clean.sass */
+body.type-clean #page-header-inner #logo a {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* line 16, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_page-clean.sass */
+section.suggest-news .suggest-news-inner {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%;
+  background-color: white;
+  margin-top: 30px;
+  padding: 50px;
+}
+/* line 41, /Users/macpro/.rvm/gems/ruby-2.2.0/gems/neat-1.3.0/app/assets/stylesheets/grid/_span-columns.scss */
+section.suggest-news .suggest-news-inner:last-child {
+  margin-right: 0;
+}
+/* line 23, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_page-clean.sass */
+section.suggest-news header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 30px;
+}
+/* line 26, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_page-clean.sass */
+section.suggest-news header h1, section.suggest-news header h2 {
+  padding: 0;
+  margin: 0;
+}
+/* line 29, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_page-clean.sass */
+section.suggest-news header h1 {
+  font-size: 44px;
+  line-height: 44px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/* line 34, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/_page-clean.sass */
+section.suggest-news header h2 {
+  color: #666666;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 300;
+}
+
+/* line 13, /Users/macpro/Desktop/paporeto/app/assets/stylesheets/application.sass */
+textarea.form-control {
+  height: 250px;
+}
