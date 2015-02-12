@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   # Área de administração do projeto ------------------------------------
   namespace :admin do
-    resources :categories, except: :show
+    resources :categories
     resources :articles
     resources :users, except: :show
     
