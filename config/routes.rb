@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-
   # Uploadbox - Upload de imagens
   mount Uploadbox::Engine => '/uploadbox', as: :uploadbox
 
@@ -12,7 +11,7 @@ Rails.application.routes.draw do
     resources :categories
     resources :articles
     resources :users, except: :show
-    
+
     root 'articles#index'
   end
 
@@ -20,9 +19,9 @@ Rails.application.routes.draw do
   resources :categories, path: 'artigos', only: [] do
     resources :articles, path: '', only: [:index, :show]
   end
-  
+
   resources :suggested_articles, only: [:new, :create]
-  
+
   root 'home#index'
 
 end
